@@ -1,0 +1,35 @@
+# {
+#   allBooks {
+#     id
+#     title
+#     author
+#   }
+# }
+
+# mutation {
+#   addBook(title: "Ayat-ayat cinta", author: "fulan") {
+#     id
+#     title
+#     author
+#   }
+# }
+
+# mutation {
+#   updateBook(id: 1, title: "Updated judul", author: "Updated penulis") {
+#     id
+#     title
+#     author
+#   }
+# }
+
+# mutation {
+#   deleteBook(id: 4)
+# }
+
+# query {
+#   book(id: 1) {
+#     id
+#     title
+#     author
+#   }
+# }
